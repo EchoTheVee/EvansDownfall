@@ -130,19 +130,19 @@ TextureImporter:
         rgba: 4278190335
     - name: Chest
       guid: 24b62999783770b4394dd044d7b0372c
-      position: {x: 155.50577, y: 200.95654, z: 2}
-      rotation: {x: 0, y: 0, z: 0.7158574, w: 0.6982466}
+      position: {x: 20.249508, y: -0.2668306, z: 2}
+      rotation: {x: 0, y: 0, z: 0.019697284, w: 0.99980605}
       length: 33.5777
-      parentId: -1
+      parentId: 2
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: Stomach
       guid: 8aa7498fd11994244bbec67f2ce395b5
-      position: {x: 154.94553, y: 180.71303, z: 1}
-      rotation: {x: 0, y: 0, z: 0.7019649, w: 0.71221155}
+      position: {x: 39.94832, y: -0.29398906, z: 1}
+      rotation: {x: 0, y: 0, z: -0.021732304, w: 0.99976385}
       length: 14.898126
-      parentId: -1
+      parentId: 3
       color:
         serializedVersion: 2
         rgba: 4278255360
@@ -157,109 +157,109 @@ TextureImporter:
         rgba: 4294967040
     - name: Arm.Right.Upper
       guid: 86e111e6d81cd854ab666430ebef02e0
-      position: {x: 220.76685, y: 265.58807, z: 10}
-      rotation: {x: 0, y: 0, z: -0.51172113, w: 0.8591516}
+      position: {x: 122.8807, y: -68.54675, z: 10}
+      rotation: {x: 0, y: 0, z: -0.9728109, w: 0.23160069}
       length: 38.53831
-      parentId: -1
+      parentId: 3
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: Arm.Right.Lower
       guid: cbd5415e2ea2d7147a94339eafa3eb3d
-      position: {x: 244.06377, y: 220.64148, z: 11}
-      rotation: {x: 0, y: 0, z: -0.46978703, w: 0.88277984}
+      position: {x: 50.617096, y: -0.92250663, z: 11}
+      rotation: {x: 0, y: 0, z: 0.04811882, w: 0.99884164}
       length: 41.70589
-      parentId: -1
+      parentId: 4
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: Arm.Right.Hand
       guid: f44fe7c6f965b744994f3b251b635003
-      position: {x: 272.06714, y: 173.57698, z: 12}
-      rotation: {x: 0, y: 0, z: -0.4322504, w: 0.9017536}
+      position: {x: 54.67976, y: -3.063188, z: 12}
+      rotation: {x: 0, y: 0, z: 0.042050198, w: 0.9991155}
       length: 35.31799
-      parentId: -1
+      parentId: 5
       color:
         serializedVersion: 2
         rgba: 4278223103
     - name: Arm.Left.Upper
       guid: d4f23fbfcfb733843af01a068d91c6c4
-      position: {x: 99.72509, y: 267.6812, z: -10}
-      rotation: {x: 0, y: 0, z: -0.86284584, w: 0.5054673}
+      position: {x: 128.47989, y: 52.38355, z: -10}
+      rotation: {x: 0, y: 0, z: -0.96378076, w: -0.266696}
       length: 38.815727
-      parentId: -1
+      parentId: 3
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: Arm.Left.Lower
       guid: 560e4130572c6cb4693048a4e4b70eb0
-      position: {x: 74.58794, y: 220.22842, z: -11}
-      rotation: {x: 0, y: 0, z: -0.884501, w: 0.46653843}
+      position: {x: 53.684345, y: 1.2780333, z: -11}
+      rotation: {x: 0, y: 0, z: -0.044535577, w: 0.9990079}
       length: 41.335766
-      parentId: -1
+      parentId: 7
       color:
         serializedVersion: 2
         rgba: 4286643968
     - name: Arm.Left.Hand
       guid: 1f7e4ce8a995db74fac9960f4372a12c
-      position: {x: 47.398773, y: 174.31464, z: -12}
-      rotation: {x: 0, y: 0, z: -0.87400615, w: 0.4859149}
+      position: {x: 53.246243, y: 3.4873688, z: -12}
+      rotation: {x: 0, y: 0, z: 0.02203474, w: 0.9997573}
       length: 31.104435
-      parentId: -1
+      parentId: 8
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: Leg.Right.Upper
       guid: 72162751b1e944a49b08313350553fea
-      position: {x: 234.30983, y: 154.27545, z: 5}
-      rotation: {x: 0, y: 0, z: -0.69617265, w: 0.71787447}
+      position: {x: 11.22243, y: -78.859, z: 5}
+      rotation: {x: 0, y: 0, z: -0.9999997, w: 0.00085761416}
       length: 53.67881
-      parentId: -1
+      parentId: 3
       color:
         serializedVersion: 2
         rgba: 4294901888
     - name: Leg.Right.Lower
       guid: 5858052b0676f4f4eb60ddade2f637ea
-      position: {x: 235.95709, y: 89.32643, z: 6}
-      rotation: {x: 0, y: 0, z: 0.69295913, w: -0.7209769}
+      position: {x: 64.96897, y: -0.34661993, z: 6}
+      rotation: {x: 0, y: 0, z: -0.004466729, w: -0.9999901}
       length: 53.460167
-      parentId: -1
+      parentId: 10
       color:
         serializedVersion: 2
         rgba: 4286578943
     - name: Leg.Right.Foot
       guid: c550673bc3a3bf347a09d9878a2b5087
-      position: {x: 232.8979, y: 28.377892, z: 7}
-      rotation: {x: 0, y: 0, z: -0.25204808, w: 0.9677147}
+      position: {x: 60.7795, y: -5.471268, z: 7}
+      rotation: {x: -0, y: 0, z: -0.48886594, w: -0.872359}
       length: 36.662006
-      parentId: -1
+      parentId: 11
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: Leg.Left.Upper
       guid: 5369a4b5b901fc240bc7c2bfcbf35972
-      position: {x: 74.29054, y: 149.80432, z: -5}
-      rotation: {x: 0, y: 0, z: -0.70014143, w: 0.7140043}
+      position: {x: 11.389394, y: 81.22265, z: -5}
+      rotation: {x: 0, y: 0, z: -0.9999891, w: -0.004685799}
       length: 48.01501
-      parentId: -1
+      parentId: 3
       color:
         serializedVersion: 2
         rgba: 4278255360
     - name: Leg.Left.Lower
       guid: 6f19cd67c21daa14e9484232398e2e90
-      position: {x: 76.17313, y: 88.85579, z: -6}
-      rotation: {x: 0, y: 0, z: -0.73175544, w: 0.6815674}
+      position: {x: 60.973705, y: 0.6873892, z: -6}
+      rotation: {x: 0, y: 0, z: -0.045282952, w: 0.9989742}
       length: 53.08126
-      parentId: -1
+      parentId: 13
       color:
         serializedVersion: 2
         rgba: 4294967040
     - name: Leg.Left.Foot
       guid: 5f7d382e906e33a41a5076ac592625da
-      position: {x: 75.70248, y: 29.083858, z: -7}
-      rotation: {x: 0, y: 0, z: -0.9689932, w: 0.24708742}
+      position: {x: 59.654766, y: 3.7702801, z: -7}
+      rotation: {x: 0, y: 0, z: -0.4796266, w: 0.87747276}
       length: 38.33157
-      parentId: -1
+      parentId: 14
       color:
         serializedVersion: 2
         rgba: 4294901760
