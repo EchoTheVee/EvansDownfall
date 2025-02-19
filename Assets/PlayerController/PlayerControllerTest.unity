@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 1027741755}
   - component: {fileID: 1027741754}
   - component: {fileID: 1027741759}
+  - component: {fileID: 1027741760}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -372,6 +373,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpawn: {fileID: 1337337461}
   bulletPrefab: {fileID: 6253398334703178334, guid: 270bcf16fdbd47e4293090180f38f59a, type: 3}
+--- !u!114 &1027741760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027741753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3e7bc3e05998f44389e905c18f10061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  isDead: 0
+  isPlayer: 0
+  isEnemy: 0
 --- !u!1 &1337337461
 GameObject:
   m_ObjectHideFlags: 0
