@@ -33,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
         if (collision.gameObject.CompareTag("Projectile") && isEnemy)
         {
             health--;
+            Destroy(collision.gameObject);
         }
     }
 }
