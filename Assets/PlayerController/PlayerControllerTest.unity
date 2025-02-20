@@ -244,6 +244,7 @@ MonoBehaviour:
   verticalInput: 0
   moveForce: 300
   turnForce: 180
+  sr: {fileID: 1027741757}
 --- !u!50 &1027741755
 Rigidbody2D:
   serializedVersion: 4
@@ -371,7 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db52da9ba605d304098800ab99b99b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpawn: {fileID: 1337337461}
+  bulletSpawn: {fileID: 1027741753}
   bulletPrefab: {fileID: 6253398334703178334, guid: 270bcf16fdbd47e4293090180f38f59a, type: 3}
 --- !u!114 &1027741760
 MonoBehaviour:
@@ -413,7 +414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337337461}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.68, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
