@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D playerRB;
     public float moveForce;
     public float turnForce;
+    public SpriteRenderer sr;
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +23,17 @@ public class PlayerMovement : MonoBehaviour
         playerRB = GetComponent<Rigidbody2D>();
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
+        if (horizontalInput <= -0.1)
+        {
+            sr.flipX = true;
+        }
+
+        if (horizontalInput >= 0.1)
+        {
+            sr.flipX = false;
+        }
 
         playerRB.AddRelativeForce(Vector2.up * moveForce * verticalInput);
-        transform.Rotate(Vector3.back * turnForce * horizontalInput * Time.deltaTime);
+        playerRB.AddRelativeForce(Vector2.right * moveForce * horizontalInput);
     }
 }
