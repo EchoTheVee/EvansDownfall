@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveForce;
     public float turnForce;
     public SpriteRenderer sr;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        anim.SetFloat("horizontalInputP", horizontalInput);
         playerRB = GetComponent<Rigidbody2D>();
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
