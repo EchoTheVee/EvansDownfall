@@ -9,6 +9,7 @@ public class EnemyMovement : MonoBehaviour
     private GameObject player;
     private GameObject Projectile;
     public PlayerHealth ph;
+    public Animator anim;
 
     [SerializeField] SpriteRenderer spriteRenderer;
 
@@ -35,28 +36,20 @@ public class EnemyMovement : MonoBehaviour
         else
         {
             EnemyMoveSpeed = 0;
+            anim.SetBool("isDeadP", ph.isDead);
         }
        
 
         //sprite flip
-        if (lookDirection.x < 0)
+        if (lookDirection.x > 0)
         {
             spriteRenderer.flipX = true;
         }
-        else if (lookDirection.x > 0)
+        else if (lookDirection.x < 0)
         {
             spriteRenderer.flipX = false;
         }
     }
 
-
-    //public void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Projectile"))
-    //    {
-    //        Destroy(gameObject);
-    //    }
-
-    //}
 }
 
