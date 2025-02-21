@@ -8,6 +8,7 @@ public class EnemyMovement : MonoBehaviour
     private Rigidbody2D enemyRb;
     private GameObject player;
     private GameObject Projectile;
+    public PlayerHealth ph;
 
     [SerializeField] SpriteRenderer spriteRenderer;
 
@@ -16,6 +17,7 @@ public class EnemyMovement : MonoBehaviour
     {
         enemyRb = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player");
+        ph = GetComponent<PlayerHealth>();
 
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -23,10 +25,18 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //enemy track
         Vector2 lookDirection = (player.transform.position - transform.position).normalized;
 
-        enemyRb.AddForce(lookDirection * EnemyMoveSpeed);
+        //enemy track
+        if (ph.isDead == false)
+        {
+            enemyRb.AddForce(lookDirection * EnemyMoveSpeed);
+        }
+        else
+        {
+            EnemyMoveSpeed = 0;
+        }
+       
 
         //sprite flip
         if (lookDirection.x < 0)
@@ -40,15 +50,13 @@ public class EnemyMovement : MonoBehaviour
     }
 
 
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Projectile"))
-        {
-            Destroy(gameObject);
-        }
+    //public void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Projectile"))
+    //    {
+    //        Destroy(gameObject);
+    //    }
 
-    }
-
-
+    //}
 }
 
