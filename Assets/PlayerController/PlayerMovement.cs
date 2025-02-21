@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         anim.SetFloat("horizontalInputP", horizontalInput);
+        anim.SetFloat("verticalInputP", verticalInput);
         playerRB = GetComponent<Rigidbody2D>();
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
